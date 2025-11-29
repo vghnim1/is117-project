@@ -1,0 +1,124 @@
+<!-- DEVELOPER: Valarie Ghnim, IS117-001, Fall 2025-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wallows Home</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Wallows</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Music
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="music/listen.html">Listen</a>
+                                <a class="dropdown-item" href="music/events.html">Events</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Carousel from https://www.w3schools.com/bootstrap5/bootstrap_carousel.php -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+    
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/wallows-group-color.webp" alt="Wallows Band" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/wallows-group-bathtub.jpg" alt="Wallows Band sitting in bathtub" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/wallows-group-fisheye.jpg" alt="Wallows Band through fisheye lens" class="d-block w-100">
+                        </div>
+                    </div>
+    
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                 <h1>Welcome to the Wallows home page!</h1>
+                 <p>
+                    Wallows is an indie rock band known for their infectious blend of alternative, pop, and lo-fi sounds.
+                    Formed in Los Angeles, California, the band features Dylan Minnette, Braeden Lemasters, and Cole Preston — three lifelong friends who turned their passion for music into an international sensation.
+                 </p>
+                 <p>
+                    Since their debut single “Pleaser” in 2017, Wallows have captivated fans with their nostalgic yet fresh sound.
+                    Their music combines shimmering guitars, emotional lyrics, and a mix of vintage and modern vibes that make every track unforgettable.
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+                <div class="row">
+                    <span class="text-muted">&copy; Valarie Ghnim, 2025 | Terms Of Use | Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
